@@ -9,7 +9,7 @@ public class Main {
 
         CoinMarketCapService service = new CoinMarketCapService();
         for (String coin : coins) {
-            System.out.println("Teste...");
+            System.out.println("Rodando...");
             service.fetchAndDisplayCryptoInfo(coin);
         }
 
